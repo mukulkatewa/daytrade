@@ -1,0 +1,6 @@
+#!/home/katewa/Documents/dev/Projects/daytrade/myenv/bin/python
+import sys
+from agent_detector._cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
