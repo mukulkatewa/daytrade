@@ -5,3 +5,11 @@
 - ORM- smart wrapper built on top of a connection, instead of dealing with raw sql strings, you deal with python objects
 
 - SQLAlchemy (translates python to sql string)  -> The Driver(Converts to binary & ships via network protocols) -> PosgresSQL(execute query) -> The Driver(Converts binary back into python tuples/lists) -> SQLAlchemy(turns raw data into a nice python object)
+
+# DB design
+
+- Four main questions:
+1) how much money can i spend
+2) what did i ask the exchange to do
+3) why does my account have this balance
+4) how do we cna prevent incorrect data
