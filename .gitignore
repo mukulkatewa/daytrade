@@ -1,7 +1,7 @@
-.venv/
+myenv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .env
 .venv.bak/
-.vscode
+.vscode/
